@@ -28,3 +28,29 @@ Command : git config
 ![image](https://github.com/praveen-kishore-pragya/Basic-Git-Setup/assets/72307064/d7fc2d2a-2dd8-45cb-8035-be0de5a7a2ec)
 
 !ATTENTION! : This (B) step may or may not work with Visual Studio Code
+
+5. Check status of files:
+
+![image](https://github.com/praveen-kishore-pragya/Basic-Git-Setup/assets/72307064/d270cb96-c038-4c98-b7c8-232ae03c2345)
+
+Here, all 3 files are still in Unstaged Area
+
+6. Adding file(s) to Staging area:
+
+Command : git add
+
+![image](https://github.com/praveen-kishore-pragya/Basic-Git-Setup/assets/72307064/2ff91c4e-d1fe-4a01-baaa-cd5e97c72e15)
+
+
+(A) Checking status:
+
+![image](https://github.com/praveen-kishore-pragya/Basic-Git-Setup/assets/72307064/a4ea92de-7d4c-4dc5-92fa-a1e24942bb5b)
+
+1 file hello.txt has been moved to Staging area, while other 2 files are still in Unstaged area.
+
+(B) Sending all files at once to the Staging area:
+
+Command: git add .
+
+![image](https://github.com/praveen-kishore-pragya/Basic-Git-Setup/assets/72307064/49008572-93fe-4ef3-aa74-78f7ee9a6ee8)
+
